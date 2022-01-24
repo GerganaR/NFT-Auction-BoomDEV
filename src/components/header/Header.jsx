@@ -1,6 +1,7 @@
 import Grid from "@mui/material/Grid";
 import Button from "@mui/material/Button";
 import Logo from "../logo/Logo.jsx";
+import Avatar from "../avatar/Avatar.jsx";
 import Link from "../link/Link.jsx";
 import TextField from "@mui/material/TextField";
 import SearchIcon from "@mui/icons-material/Search";
@@ -19,6 +20,7 @@ export default function Header() {
         <Grid item md={2} display={{ xs: "none", md: "flex" }}>
           <Link href="/">
             <Logo />
+            <Avatar></Avatar>
           </Link>
         </Grid>
         <Grid item xs={12} md={5} paddingX={{ xs: "10px", md: "0" }}>

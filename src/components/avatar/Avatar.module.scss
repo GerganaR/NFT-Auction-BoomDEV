@@ -1,0 +1,18 @@
+.avatar {
+  position: relative;
+}
+
+.image {
+  position: absolute;
+  border-radius: 50%;
+  width: inherit;
+  height: inherit;
+  object-fit: cover;
+}
+
+.badge {
+  position: absolute;
+  top: 73%;
+  right: -8%;
+  width: 33%;
+}
