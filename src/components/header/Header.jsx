@@ -8,6 +8,7 @@ import SearchIcon from "@mui/icons-material/Search";
 import InputAdornment from "@mui/material/InputAdornment";
 import classNames from "classnames";
 import styles from "./Header.module.scss";
+import User from "../user/User.jsx";
 
 export default function Header() {
   return (
@@ -63,6 +64,7 @@ export default function Header() {
           </Link>
         </Grid>
       </Grid>
+      <User></User>
     </div>
   );
 }
