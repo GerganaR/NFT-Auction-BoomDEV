@@ -9,6 +9,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 import classNames from "classnames";
 import styles from "./Header.module.scss";
 import User from "../user/User.jsx";
+import Card from "../card/Card.jsx";
 
 export default function Header() {
   return (
@@ -65,6 +66,7 @@ export default function Header() {
         </Grid>
       </Grid>
       <User></User>
+      <Card></Card>
     </div>
   );
 }
