@@ -65,7 +65,7 @@ export default function Header() {
           </Link>
         </Grid>
       </Grid>
-      <User></User>
+
       <Card></Card>
     </div>
   );

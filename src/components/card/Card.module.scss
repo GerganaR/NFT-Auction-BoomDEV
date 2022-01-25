@@ -8,14 +8,10 @@
   border-radius: 15px !important;
 }
 
-.liveCard {
-  background-color: mix(#181828, colors.$secondary_main, $weight: 85);
-}
-
 .media {
   position: relative;
   border-radius: 15px;
-  margin: 20px 0px;
+  margin: 20px 0px 0px 0px;
   width: 309px !important;
   height: 285px;
 }
@@ -41,38 +37,8 @@
   border: 2px solid;
 }
 
-.timer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: colors.$success_main;
-  border-radius: 0 0 15px 15px;
-  position: absolute;
-  width: inherit;
-  top: 85%;
-  height: 15%;
-  color: black;
-  font-weight: 800;
-}
-
 .imgContainer {
   position: relative;
-}
-
-.badge {
-  width: 75px;
-  height: 30px;
-  font-size: 14px;
-  font-weight: 800;
-  background: colors.$success_main;
-  color: black;
-  border-radius: 7px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  position: absolute;
-  top: 5%;
-  left: 5%;
 }
 
 .card-content {
