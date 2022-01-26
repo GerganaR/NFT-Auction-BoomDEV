@@ -69,6 +69,7 @@ export default function Header() {
       </div>
       <div>
         <Trending></Trending>
+        <Card></Card>
       </div>
     </div>
   );
