@@ -1,0 +1,30 @@
+.wrapper {
+  width: 100%;
+}
+
+.auction-container {
+  padding: 27px 0 !important;
+}
+
+.label-text {
+  padding-left: 10px !important;
+}
+
+.dropdown-form {
+  width: 100%;
+  max-width: 220px;
+}
+
+.auction-header {
+  flex-direction: row;
+  text-align: center;
+  align-items: baseline;
+  gap: 10px;
+  margin-top: 60px;
+  margin-bottom: 35px;
+}
+
+.card-container {
+  flex-direction: row;
+  gap: 10px;
+}

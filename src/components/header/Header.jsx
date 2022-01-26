@@ -11,6 +11,7 @@ import styles from "./Header.module.scss";
 import User from "../user/User.jsx";
 import Card from "../card/Card.jsx";
 import Trending from "../trending/Trending.jsx";
+import Auctions from "../auctions/Auctions.jsx";
 
 export default function Header() {
   return (
@@ -69,6 +70,7 @@ export default function Header() {
       </div>
       <div>
         <Trending></Trending>
+        <Auctions></Auctions>
         <Card></Card>
       </div>
     </div>
