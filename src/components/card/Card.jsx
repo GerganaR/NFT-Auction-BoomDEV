@@ -43,7 +43,7 @@ export default function Card({
               {name}Name NFT
             </Typography>
             <Typography className={classNames(styles["price"])}>
-              {price} {currency} Currency
+              {price} {currency}
             </Typography>
           </Grid>
           <Grid item xs={3}>
