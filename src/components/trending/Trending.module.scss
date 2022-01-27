@@ -9,3 +9,31 @@
   align-items: center;
   justify-content: center;
 }
+
+.select-menu {
+  width: 100%;
+
+  div {
+    padding-left: 25px;
+  }
+}
+
+.trending-section-container {
+  margin-top: 32px;
+  padding: 45px 0 !important;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.cards-container {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.select-form {
+  width: 100%;
+  max-width: 220px;
+}

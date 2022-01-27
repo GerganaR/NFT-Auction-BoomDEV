@@ -1,0 +1,13 @@
+@use "../../styles/colors";
+
+// $primary_main: 10%;
+
+.container {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.number {
+  background-color: rgba(colors.$primary_main, 10%);
+}
