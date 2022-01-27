@@ -20,13 +20,14 @@ export default function How({
           </Button>
         </Grid>
         <Grid item xs={4}>
-          {items.map((item, index) => {
-            return (
-              <Grid item xs={12}>
-                {<HowStep number={index} {...item} />}
-              </Grid>
-            );
-          })}
+          {items.map((el, i) => (
+            <HowStep
+              key={i}
+              number={i + 1}
+              title={el.title}
+              description={el.description}
+            />
+          ))}
         </Grid>
       </Grid>
     </Container>
