@@ -9,6 +9,7 @@ import InputAdornment from "@mui/material/InputAdornment";
 import classNames from "classnames";
 import styles from "./Header.module.scss";
 import User from "../user/User.jsx";
+import Footer from "../footer/Footer.jsx";
 import Card from "../card/Card.jsx";
 import Trending from "../trending/Trending.jsx";
 import Auctions from "../auctions/Auctions.jsx";
@@ -72,6 +73,7 @@ export default function Header() {
         <Trending></Trending>
         <Auctions></Auctions>
         <Card></Card>
+        <Footer></Footer>
       </div>
     </div>
   );

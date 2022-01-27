@@ -1,0 +1,16 @@
+@use "../../styles/colors";
+
+.container {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+
+.item {
+  display: contents !important;
+}
+
+.policy {
+  color: colors.$text_primary !important;
+  // font-size: 12px;
+}
