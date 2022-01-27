@@ -15,7 +15,9 @@ export default function How({
         <Grid item xs={8}>
           <h1>{title}</h1>
           <p> {description}</p>
-          <Button variant="contained">Learn more</Button>
+          <Button href={link} variant="contained">
+            Learn more
+          </Button>
         </Grid>
         <Grid item xs={4}>
           {items.map((item, index) => {
