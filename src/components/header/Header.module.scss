@@ -1,21 +1,8 @@
-@use "../../styles/colors";
-
-.wrapper {
-  padding: 100px;
-  background-color: colors.$primary_main;
-}
-
-.container {
-  display: flex !important;
-  align-items: center;
-  justify-content: center;
-}
-
 .header-container {
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: colors.$background_paper;
+  background-color: rgba(24, 24, 40, 1);
 }
 
 .grid-container {
@@ -26,19 +13,19 @@
 }
 
 .button {
-  color: colors.$text_primary !important;
+  color: #ffffff !important;
   text-transform: none !important;
 }
 
 .search-bar {
   div {
-    background-color: colors.$background_default;
+    background-color: rgba(12, 12, 20, 1);
     max-height: 51px;
   }
 }
 
 .search-icon {
-  color: colors.$text_primary;
+  color: #ffffff;
 }
 
 .button-container {
