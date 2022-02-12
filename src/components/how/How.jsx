@@ -1,35 +1,34 @@
-import React, { useState } from "react";
-import Container from "@mui/material/Container";
+import { Grid, Button, Typography } from "@mui/material/";
+import HowStep from "./Step.jsx";
 import styles from "./How.module.scss";
 import classNames from "classnames";
-import HowStep from "./HowStep";
-import { Grid, Button } from "@mui/material";
 
-export default function How({
-  description = "",
-  title = "",
-  items = [
-    {
-      title: "Test 1",
-      description: "Test 1 Desc",
-    },
-    {
-      title: "Test 1",
-      description: "Test 1 Desc",
-    },
-    {
-      title: "Test 1",
-      description: "Test 1 Desc",
-    },
-  ],
-  link = "",
-}) {
+export default function How({ description, title, items = [], link }) {
   return (
-    <Container className={classNames(styles.container)} maxWidth="xl">
-      <Grid container spacing={2}>
-        <Grid item xs={8}>
-          <h1>{title}</h1>
-          <p>{description}</p>
+    <div className={classNames(styles["wrapper"])}>
+      <Grid
+        container
+        className={classNames(styles["grid-container"])}
+        justifyContent={{ xs: "center", lg: "space-between" }}
+        maxWidth="xl"
+      >
+        <Grid
+          container
+          item
+          className={classNames(styles["text-container"])}
+          justifyContent={{ xs: "center", lg: "unset" }}
+          textAlign={{ xs: "center", lg: "unset" }}
+          paddingTop={{ xs: "20px", lg: "0px" }}
+          md={12}
+          lg={5}
+        >
+          <Typography variant="h1">{title}</Typography>
+          <Typography
+            className={classNames(styles["description"])}
+            color="textSecondary"
+          >
+            {description}
+          </Typography>
           <Button
             href={link}
             variant="contained"
@@ -38,7 +37,12 @@ export default function How({
             Learn more
           </Button>
         </Grid>
-        <Grid item xs={4}>
+        <Grid
+          item
+          className={classNames(styles["step-container"])}
+          justifyContent={{ xs: "center", lg: "unset" }}
+          paddingTop={{ xs: "20px", lg: "0px" }}
+        >
           {items.map((el, i) => (
             <HowStep
               key={i}
@@ -49,6 +53,6 @@ export default function How({
           ))}
         </Grid>
       </Grid>
-    </Container>
+    </div>
   );
 }

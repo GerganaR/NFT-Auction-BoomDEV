@@ -1,7 +1,41 @@
-@use "../../styles/colors";
+.wrapper {
+  display: grid;
+  justify-items: center;
+  align-content: center;
+  background-color: rgb(78, 36, 242);
+  min-height: 640px;
+}
 
-.container {
-  display: flex !important;
+.grid-container {
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.text-container {
+  padding-left: 1rem;
   align-items: center;
-  justify-content: center;
+  align-content: center;
+}
+
+.description {
+  padding: 30px 0 40px 0;
+}
+
+.step-container {
+  display: grid;
+  gap: 30px;
+  margin-top: -30px !important;
+  margin-bottom: -36px !important;
+}
+
+.learn-more-btn {
+  background-color: white !important;
+  color: rgb(78, 36, 242) !important;
+  width: 100%;
+  max-width: 195px;
+  min-height: 59px;
+  font-weight: 700 !important;
+  border-radius: 30px !important;
+  position: relative;
+  top: 11px;
 }
